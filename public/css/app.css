@@ -4550,6 +4550,10 @@ body {
   background: #4aa0e6 !important;
 }
 
+a.nav-link.active {
+  background: brown;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

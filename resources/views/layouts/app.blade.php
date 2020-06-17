@@ -33,7 +33,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <li>
+                            <a class='nav-link' href="/" {{Request::is('/') ? 'active':''}}>Start</a>
+                        </li>
+                         <li>
+                             <a class='nav-link' href="/info" {{Request::is('info') ? 'active':''}}>Info</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
