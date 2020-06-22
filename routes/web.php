@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('start_page');
 });
+//Route::get('/test/{name}/{age}','HobbyController@index');
+Route::resource('hobby', 'HobbyController');
 Route::get('/info', function () {
     return view('info');
 });

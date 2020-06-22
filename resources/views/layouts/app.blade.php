@@ -39,6 +39,9 @@
                          <li>
                              <a class='nav-link' href="/info" {{Request::is('info') ? 'active':''}}>Info</a>
                         </li>
+                        <li>
+                            <a class='nav-link' href="/hobby" {{Request::is('hobby*') ? 'active':''}}>Hobbies</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
